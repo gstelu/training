@@ -28,8 +28,8 @@ public class Main {
 		file.createNewFile();
 		//BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
 		String str = """
-                public static{
-                  
+                public Class{
+                  system.out.println("hllo");
                 }
                 """;
 		try {
