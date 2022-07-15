@@ -53,7 +53,7 @@ public class Serviceimp implements Service {
 	public void writefile(File file, String words) throws IOException {
 		BufferedWriter bf = null;
 	    try {
-	    	 bf = new BufferedWriter(new FileWriter("C:\\Users\\lanala\\Desktop\\Javafile.java"));
+	    	 bf = new BufferedWriter(new FileWriter("C:\\Users\\gstelu\\Desktop\\Javafile.java"));
 	         bf.write(words);
 	         bf.flush();
 	       } catch(Exception e) {}
