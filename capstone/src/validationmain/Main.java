@@ -24,7 +24,7 @@ public class Main {
 		keyword.add("if");keyword.add("else");keyword.add("try");keyword.add("catch");keyword.add("do");
 		keyword.add("while");keyword.add("finally");keyword.add("switch");keyword.add("case");
 		keyword.add("interface");keyword.add("long");keyword.add("package");keyword.add("null");keyword.add("for");
-		File file= new File("C:\\Users\\lanala\\Desktop\\Javafile.java");
+		File file= new File("C:\\Users\\gstelu\\Desktop\\Javafile.java");
 		file.createNewFile();
 		//BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
 		String str = """
@@ -78,7 +78,7 @@ public class Main {
 	            System.out.println(e3.getMessage());
 	        }
 			 catch(Exception e) {
-				 System.out.println("something error");
+				 System.out.println("somewhere error");
 			 }
 		obj.writefile(file, str);
     }
